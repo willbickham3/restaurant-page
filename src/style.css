@@ -1,0 +1,10 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: url("./images/tavern2x.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
