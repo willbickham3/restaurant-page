@@ -1,5 +1,7 @@
-html {
+html, body {
     height: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 body {
@@ -8,3 +10,23 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 } 
+
+.tabContainer {
+    background-color: lightblue;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navButton {
+    font-size: 18px;
+    border: none;
+    background-color: lightblue;
+    transition: transform 0.3s
+}
+
+.navButton:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
