@@ -1,5 +1,5 @@
 import './style.css'
-import display from './startup';
+import tabDisplay from './startup';
 
-display();
+tabDisplay();
 console.log('yeehaw brudder')
