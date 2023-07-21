@@ -9,24 +9,43 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
 } 
 
 .tabContainer {
-    background-color: lightblue;
-    padding: 10px;
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
 .navButton {
-    font-size: 18px;
+    font-size: 22px;
     border: none;
-    background-color: lightblue;
-    transition: transform 0.3s
+    background-color: #D69B4B;
+    transition: transform 0.3s;
+    height: 85px;
+    width: 6vw;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 0px 7px 7px;
 }
 
 .navButton:hover {
     cursor: pointer;
     transform: scale(1.1);
+}
+
+#content {
+    display: flex;
+    width: 50%;
+    height: 90%;
+    justify-content: center;
+    background-color: #D69B4B;
+    border-radius: 5px 5px 5px 5px;
 }
