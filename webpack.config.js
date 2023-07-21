@@ -15,7 +15,7 @@ module.exports = {
       },
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
-        include: path.resolve(__dirname, 'images'),
+        include: path.resolve(__dirname, 'src/images'),
         type: 'asset/resource',
       },
     ],
