@@ -1,7 +1,12 @@
-function display() {
-    const tabContainer = document.createElement('div');
+function tabDisplay() {
+    const content = document.querySelector('#content');
+
+    let navHeader = document.createElement('header');
+    const tabContainer = document.createElement('nav');
     tabContainer.classList.add('tabContainer');
-    document.querySelector('#content').appendChild(tabContainer);
+    
+    document.body.prepend(navHeader)
+    document.querySelector('header').appendChild(tabContainer);
 
     const menuBtn = document.createElement('Button');
     menuBtn.innerHTML = 'Menu';
@@ -17,6 +22,11 @@ function display() {
 
     tabContainer.append(menuBtn, homeBtn, contactBtn);
 
+
+    let mainContent = document.createElement('div');
+
+    content.appendChild(mainContent);
+    
 }
 
-export default display
+export default tabDisplay
