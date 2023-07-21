@@ -1,5 +1,5 @@
-import orcCook from '/src/images/Zug-Zug.jpg'
-import robbyflay from '/src/images/robby-flay.jpg'
+import orcCook from './images/Zug-Zug.jpg'
+import robbyflay from './images/robby-flay.jpg'
 
 function homePage() {
     const greetingDiv = document.createElement('div');

@@ -1,6 +1,6 @@
 import homePage from './home';
 import createTabsWithImage from './tabCreater'
-import banner from '/src/images/banner.png'
+import banner from 'images/banner.png'
 
 // createTabsWithImage takes 3 arguments (inner text of button, class of button, and image src)
 // page load module
