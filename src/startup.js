@@ -18,9 +18,9 @@ function tabDisplay() {
     document.body.prepend(navHeader)
     document.querySelector('header').appendChild(tabContainer);
 
-    const menuBtn = createTabsWithImage('Menu', 'navButton', banner);
-    const homeBtn = createTabsWithImage('Home', 'navButton', banner);
-    const contactBtn = createTabsWithImage('Contact Us', 'navButton', banner);
+    const menuBtn = createTabsWithImage('button', 'Menu', 'navButton', banner);
+    const homeBtn = createTabsWithImage('button', 'Home', 'navButton', banner);
+    const contactBtn = createTabsWithImage('button', 'Contact Us', 'navButton', banner);
 
     tabContainer.append(menuBtn, homeBtn, contactBtn);
 
