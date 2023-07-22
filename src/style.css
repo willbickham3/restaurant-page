@@ -9,11 +9,10 @@ html {
     height: 100%;
     padding: 0;
     margin: 0;
-    background: url("./images/tavern2x.jpg");
+    background-image: url("./images/tavern2x.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    box-sizing: border-box;
 }
 
 body {
@@ -100,7 +99,7 @@ header img {
 
 .image-container img{
     width: 40%;
-    height: 400px;
+    height: auto;
     border-radius: 7px 7px 7px 7px;
     border: 1px solid var(--border-color);
 }
@@ -109,3 +108,26 @@ header img {
     font-size: 20px;
     text-align: left;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+    .tabContainer button  {
+        width: 20vw;
+    }
+
+    .navButton img {
+        width: 20vw;
+    }
+
+    .navButton {font-size: 1.4em;}
+
+    #content {
+        width: 80%;
+    }
+
+    body {
+        background-image: url("./images/tavern2x.jpg");
+        background-position: center;
+    }
+  }
