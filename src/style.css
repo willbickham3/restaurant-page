@@ -1,14 +1,25 @@
-html, body {
+:root {
+    --accent-color: #F2794E;
+    --text-color: #025948 /*#24A68C*/;
+    --border-color: #A64724;
+    --background-color: #59200B;
+}
+
+html {
     height: 100%;
     padding: 0;
     margin: 0;
-}
-
-body {
     background: url("./images/tavern2x.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,7 +27,7 @@ body {
 } 
 
 header {
-
+    position: relative;
 }
 
 .tabContainer {
@@ -32,16 +43,20 @@ header {
 .navButton {
     font-size: 22px;
     border: none;
-    background-color: #D69B4B;
+    background-color: var(--background-color);
     transition: transform 0.3s;
     height: 85px;
     width: 6vw;
     padding: 0;
+    font-weight: 800;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     border-radius: 0px 0px 4px 4px;
+    color: var(--accent-color);
+    border: 1px solid var(--border-color);
+    border-top: none;
 }
 
 .navButton:hover {
@@ -59,17 +74,22 @@ header img {
     margin-top: 100px;
     display: flex;
     width: 50%;
-    height: 100%;
     justify-content: center;
-    background-color: #D69B4B;
+    background-color: var(--background-color);
     border-radius: 5px 5px 5px 5px;
+    border: 2px solid var(--border-color);
+    margin-bottom: 50px;
 }
 
 .sub-header {
-    font-size: 32px;
+    font-size: 50px;
     width: 100%;
     padding: 20px;
     text-align: center;
+    color: var(--accent-color);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .image-container {
@@ -81,4 +101,11 @@ header img {
 .image-container img{
     width: 40%;
     height: 400px;
+    border-radius: 7px 7px 7px 7px;
+    border: 1px solid var(--border-color);
+}
+
+.sub-section {
+    font-size: 20px;
+    text-align: left;
 }
