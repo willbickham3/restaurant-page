@@ -46,7 +46,7 @@ header {
     background-color: var(--background-color);
     transition: transform 0.3s;
     height: 85px;
-    width: 6vw;
+    width: 7vw;
     padding: 0;
     font-weight: 800;
     display: flex;
@@ -67,7 +67,7 @@ header {
 header img {
     position: absolute;
     top: 90%;
-    width: 6vw;
+    width: 7vw;
 }
 
 #content {
