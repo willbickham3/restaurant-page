@@ -11,11 +11,11 @@ const string3 = `Their restaurant in Booty Bay became a melting pot of tastes, d
 const subheading = 'Meet the Cooks!'
 
 function homePage() {
-    const greetingDiv = subSectionCreater('sub-header', subheading);
-    const imageContainer = containerDiv('image-container');
-    const orcImage = imageCreater('image-chef', orcCook);
-    const humanImage = imageCreater('image-chef', robbyflay);
-    const introduction = subSectionCreater('sub-section', null)
+    const greetingDiv = subSectionCreater('div', 'sub-header', subheading);
+    const imageContainer = containerDiv('div', 'image-container');
+    const orcImage = imageCreater('image', orcCook);
+    const humanImage = imageCreater('image', robbyflay);
+    const introduction = subSectionCreater('div', 'sub-section', null)
 
     document.querySelector('#content').appendChild(greetingDiv);
     imageContainer.append(humanImage, orcImage);
