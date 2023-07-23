@@ -2,7 +2,8 @@ import paragraph from "./paragraphHolder";
 import createTabsWithImage from "./tabCreater";
 import { imageCreater, containerDiv } from "./imageCreater";
 import subSectionCreater from "./subsection";
-import orcCook from './images/Zug-Zug.jpg'
+import gnomish from './images/gnomish-delight.jpg'
+import grf from './images/goblinrocketfuel.jpg'
 
 // paragraph(string) <-- requires string argument but appends paragraph element
 // createTabsWithImage(element, text, classList, ImageSrc) <-- element to be created with inner text, class name and image appended to it
@@ -32,9 +33,8 @@ class newMenuItem{
 
 }
 
-const menu1 = new newMenuItem('Goblin Rocket Fuel', orcCook, menu1Description);
-const menu2 = new newMenuItem('Gnomish Delight Dessert', orcCook, menu2Description)
-const menu3 = new newMenuItem('peepoo', orcCook, 'I poop my pants')
+const menu1 = new newMenuItem('Goblin Rocket Fuel', grf, menu1Description);
+const menu2 = new newMenuItem('Gnomish Delight Dessert', gnomish, menu2Description)
 
 function createMenu() {
     const menuContainer = containerDiv('div', 'menu');
