@@ -1,6 +1,6 @@
-import homePage from './home';
 import createTabsWithImage from './tabCreater'
 import banner from '/src/images/banner2.png'
+import { containerDiv, imageCreater } from './imageCreater';
 
 // createTabsWithImage takes 3 arguments (inner text of button, class of button, and image src)
 // page load module
@@ -9,11 +9,7 @@ function tabDisplay() {
     const content = document.querySelector('#content');
 
     let navHeader = document.createElement('header');
-    const tabContainer = document.createElement('nav');
-    tabContainer.classList.add('tabContainer');
-
-    let bannerBottom = document.createElement('img');
-    bannerBottom.src = banner;
+    const tabContainer = containerDiv('nav', 'tabContainer');
     
     document.body.prepend(navHeader)
     document.querySelector('header').appendChild(tabContainer);
@@ -23,12 +19,6 @@ function tabDisplay() {
     const contactBtn = createTabsWithImage('button', 'Contact Us', 'navButton', banner);
 
     tabContainer.append(menuBtn, homeBtn, contactBtn);
-
-    let mainContent = document.createElement('div');
-    mainContent.classList.add('main-content')
-
-    content.appendChild(mainContent);
-    homePage();
 }
 
 export default tabDisplay
