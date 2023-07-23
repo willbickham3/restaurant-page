@@ -1,6 +1,6 @@
 :root {
     --accent-color: #F2794E;
-    --text-color: #025948 /*#24A68C*/;
+    --text-color: /*#025948*/ #24A68C;
     --border-color: #A64724;
     --background-color: #59200B;
 }
@@ -74,10 +74,14 @@ header img {
     display: flex;
     width: 50%;
     justify-content: center;
+    align-items: center;
     background-color: var(--background-color);
     border-radius: 5px 5px 5px 5px;
     border: 2px solid var(--border-color);
     margin-bottom: 50px;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
 }
 
 .sub-header {
@@ -103,6 +107,11 @@ header img {
     border: 1px solid var(--border-color);
 }
 
+.image {
+    width: 50%;
+    height: auto;
+}
+
 .sub-section {
     font-size: 20px;
     text-align: left;
@@ -111,6 +120,36 @@ header img {
     padding: 10px;
 }
 
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    column-gap: 75px;
+}
+
+.food-container {
+    border: 2px solid var(--border-color);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+.food-name {
+    color: var(--accent-color);
+    font-size: 1.6em;
+}
+
+.menu p {
+    color: var(--text-color);
+    font-size: 1.2em;
+}
+
+.menu p span {
+    font-weight: 900;
+}
 
 
 @media only screen and (max-width: 600px) {
