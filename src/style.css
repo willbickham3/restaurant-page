@@ -171,4 +171,9 @@ header img {
         background-image: url("./images/tavern2x.jpg");
         background-position: center;
     }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+    }
   }
