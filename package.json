@@ -5,7 +5,8 @@
   "main": "bundle.js",
   "scripts": {
     "build": "webpack",
-    "publish": "git subtree push --prefix dist origin gh-pages"
+    "publish": "git subtree push --prefix dist origin gh-pages",
+    "watch": "npx webpack --watch"
   },
   "keywords": [],
   "author": "",
