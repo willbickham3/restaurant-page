@@ -7,8 +7,8 @@ function imageCreater(classList, imgSource) {
 }
 
 
-function containerDiv(className) {
-    const div = document.createElement('div');
+function containerDiv(element, className) {
+    const div = document.createElement(element);
     div.classList.add(className);
     return div
 }
