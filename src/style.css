@@ -178,7 +178,7 @@ header img {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     .tabContainer button  {
         width: 20vw;
     }
@@ -187,7 +187,9 @@ header img {
         width: 20vw;
     }
 
-    .navButton {font-size: 1.4em;}
+    .navButton {
+        font-size: 1.4em;
+    }
 
     #content {
         width: 80%;
