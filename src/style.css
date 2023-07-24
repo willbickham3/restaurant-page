@@ -129,7 +129,9 @@ header img {
 .contact-page {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10px;
+    width: 90%;
+    column-gap: 70px;
+    row-gap: 20px;
 }
 
 .contact-page .sub-header {
@@ -197,6 +199,11 @@ header img {
     }
 
     .menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-page {
         display: flex;
         flex-direction: column;
     }
