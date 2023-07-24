@@ -13,7 +13,7 @@ function tabDisplay() {
     const content = document.querySelector('#content');
 
     let navHeader = document.createElement('header');
-    const tabContainer = containerDiv('nav', 'tabContainer');
+    const tabContainer = containerDiv('nav', 'tabContainer', null);
     
     document.body.prepend(navHeader)
     document.querySelector('header').appendChild(tabContainer);
