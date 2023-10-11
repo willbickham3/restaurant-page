@@ -11,6 +11,8 @@ The Giggling Goblet
 
 I am currently back in school for my B.S. in Computer Science so I am trying to juggle school, personal projects, parenting and showing old projects the love they deserve!
 
+I'm currently working on a [Battleship](https://github.com/willbickham3/battleship) project!
+
 ## Features
 
 - Three different pages: Menu, Home, Contact Us
