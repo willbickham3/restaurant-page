@@ -7,7 +7,7 @@ The Giggling Goblet
 
 ## Overview
 
- This is my fictional restaurant page, "The Giggling Goblet". This project represents my first steps outside of plain one file JavaScript and into the world of modular programming using npm and webpack. I have been progressing through [The Odin Project](theodinproject.com) for roughly a year and half while being a stay-at-home parent. This project didn't take me a long time to actually code up but I think it probably was one of the most fun. I was able to take a lot of creative liberties that I've tried to carry on with my programming.
+ This is my fictional restaurant page, "The Giggling Goblet". This project represents my first steps outside of plain one file JavaScript and into the world of modular programming using npm and webpack. I have been progressing through [The Odin Project](https://www.theodinproject.com/) for roughly a year and half while being a stay-at-home parent. This project didn't take me a long time to actually code up but I think it probably was one of the most fun. I was able to take a lot of creative liberties that I've tried to carry on with my programming.
 
 I am currently back in school for my B.S. in Computer Science so I am trying to juggle school, personal projects, parenting and showing old projects the love they deserve!
 
