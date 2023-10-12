@@ -1,6 +1,4 @@
-# Project Name
-
-The Giggling Goblet
+# The Giggling Goblet
 
 { You can view the live here -> [The Giggling Goblet](https://willbickham3.github.io/restaurant-page/) }
 
